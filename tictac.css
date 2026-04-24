@@ -1,0 +1,66 @@
+v*{
+  padding:0;
+  margin:0;
+}
+body{
+  background-color:#5C4F4A;
+  text-align:center;
+}
+.container{
+  display:flex;
+  justify-content:center;   /* horizontal center */
+  align-items:center;       /* vertical center */
+  height: 100vh;
+  
+  /* full screen height */
+}
+  
+
+.gameContainer{
+  height: 250px;
+  width: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;   /* 🔥 important */
+}
+.gameButtons{
+  height:75px;
+  width:75px;
+  border:2px solid #5C766D;
+  border-radius:5px;
+  background-color:#C9996B;
+  color:#5C766D;
+  font-size:50px;
+}
+#resetButton{
+  padding:3px;
+  font-size:20px;
+  border-radius:5px;
+  background-color:black;
+  color:white;
+  border:none;
+}
+#newGame{
+  padding:3px;
+  font-size:20px;
+  border-radius:5px;
+  background-color:black;
+  color:white;
+  border:none;
+}
+#message{
+  color:#EDE9E6;
+  font-size:30px;
+}
+.msgContainer{
+  height:100vh;
+}
+
+.gameButtons:active{
+   background-color:#EDE9E6;;
+}
+.hide{
+  display:none;
+}
